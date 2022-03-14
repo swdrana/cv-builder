@@ -16,11 +16,11 @@ body{
     height: 842px;
 }
 /* CV Left Side Style */
-.left-info{
+.left-side{
     /* height: 660px; */
     /* height: 842px; */
     background-color: #293846;
 }
-.left-info img{
+.left-side img{
     width: 200px;
 }
