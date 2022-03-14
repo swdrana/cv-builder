@@ -12,8 +12,8 @@ body{
     /* height: 3508px; */
     font-family: 'Abel', sans-serif;
     /* width: 520px; */
-    width: 595px;
-    height: 842px;
+      width: 790px;
+      height: 1000px;
 }
 /* CV Left Side Style */
 .left-side{
@@ -22,5 +22,5 @@ body{
     background-color: #293846;
 }
 .left-side img{
-    width: 200px;
+    width: 300px;
 }
