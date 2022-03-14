@@ -22,9 +22,9 @@
   </head>
   <body>
     <!-- CV Body -->
-    <section class="cv-body container my-3">
+    <section id="cv-body" class="container my-3">
       <div class="row">
-        <div class="left-info col-md-4 text-white">
+        <div class="left-info col-4 text-white p-0 d-flex flex-column">
           <!-- Profile Picture -->
           <img
             src="https://avatars.githubusercontent.com/u/41230139?v=4"
@@ -34,14 +34,50 @@
           <!-- Contact Section -->
           <div class="contact my-3 mx-3 row">
             <h5 class="p-0">CONTACT</h5>
-            <hr class="m-0 text-white" />
-            <div class="col-md-2 p-0 ">
-              <i class="bi bi-geo-alt-fill"></i>
+            <!-- Location  -->
+            <hr class="mb-2 text-white" />
+            <div class="row p-0 m-0">
+              <label for="call" class="col-2 p-0 d-flex align-it">
+                <!-- d-flex align-items-center -->
+                <i class="bi bi-geo-alt-fill"></i>
+              </label>
+              <p class="p-0 col-10 mb-2">
+                <span contenteditable="true"
+                  >Xianglin, Nanjing, Jiangsu, China.</span
+                >
+              </p>
             </div>
-            <div class="col-md-10 p-0 ">dsfjdsdsfjkdsfkdskfhjkdshkfkjf</div>
+            <!-- Phone / Call -->
+            <div class="row p-0 m-0">
+              <label for="call" class="col-2 p-0">
+                <i class="bi bi-telephone-fill"></i>
+              </label>
+              <a href="tel:+880 1772-651051" id="call" class="text-decoration-none p-0 col-10 mb-2 text-white" contenteditable="true"
+                >+880 1772-651051</a
+              >
+            </div>
+            <!-- Email  -->
+            <div class="row p-0 m-0">
+              <label for="email" class="col-2 p-0">
+                <i class="bi bi-envelope-fill"></i>
+              </label>
+              <a href="mailto:codingbengal@gmail.com" id="email" class="text-decoration-none p-0 col-10 mb-2 text-white" contenteditable="true"
+                >codingbengal@gmail.com</a
+              >
+            </div>
           </div>
         </div>
-        <div class="col-md-8">dsf</div>
+        <div class="col-8">
+          <p style="text-align: justify">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit
+            tempore facilis eligendi inventore numquam! Quae impedit cumque
+            eveniet officia nemo? Distinctio eum deleniti fuga. Earum laudantium
+            explicabo illo voluptates magnam voluptas adipisci expedita! Iusto,
+            sit illo optio laudantium sunt magnam hic nisi aliquid
+            exercitationem consequuntur aperiam vero unde reprehenderit
+            nesciunt!
+          </p>
+        </div>
       </div>
     </section>
     <!-- Bootstrap Script -->

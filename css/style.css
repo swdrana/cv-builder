@@ -1,16 +1,23 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Common */
+.text-justify{
+    text-align: justify !important;
+}
 /* CV Body section */
-.cv-body{
+#cv-body{
     /* height: 3508px; */
     font-family: 'Abel', sans-serif;
-    width: 520px;
+    /* width: 520px; */
+    width: 595px;
+    height: 842px;
 }
 /* CV Left Side Style */
 .left-info{
-    height: 660px;
+    /* height: 660px; */
+    height: 842px;
     background-color: #293846;
 }
 .left-info img{
-    height: 150px;
+    width: 200px;
 }
